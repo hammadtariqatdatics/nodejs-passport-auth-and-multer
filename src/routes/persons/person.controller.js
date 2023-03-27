@@ -5,7 +5,6 @@ const db = require("../../../db/models");
 const { createPersonSchema, authPersonSchema } = require("./validationSchema");
 const { generateAuthToken } = require("../../utils/helpers");
 const { emailHandler, authHandler } = require("../../middleware/auth");
-// const passportAuth = require("../../middleware/passportAuth")();
 const { Person } = db;
 const passport = require("passport");
 
